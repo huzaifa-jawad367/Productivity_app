@@ -11,7 +11,7 @@ import SwiftUI
 struct StormViewerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskView()
         }
     }
 }

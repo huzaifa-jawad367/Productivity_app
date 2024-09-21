@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6013F8D72C9D5506007615DB /* StormViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013F8D62C9D5506007615DB /* StormViewerApp.swift */; };
-		6013F8D92C9D5506007615DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013F8D82C9D5506007615DB /* ContentView.swift */; };
+		6013F8D92C9D5506007615DB /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013F8D82C9D5506007615DB /* TaskView.swift */; };
 		6013F8DB2C9D5507007615DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6013F8DA2C9D5507007615DB /* Assets.xcassets */; };
 		6013F8DE2C9D5507007615DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6013F8DD2C9D5507007615DB /* Preview Assets.xcassets */; };
 		6013F8E82C9D5508007615DB /* StormViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013F8E72C9D5508007615DB /* StormViewerTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		6013F8D32C9D5506007615DB /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6013F8D62C9D5506007615DB /* StormViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewerApp.swift; sourceTree = "<group>"; };
-		6013F8D82C9D5506007615DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6013F8D82C9D5506007615DB /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		6013F8DA2C9D5507007615DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6013F8DD2C9D5507007615DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6013F8E32C9D5507007615DB /* StormViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,12 +95,12 @@
 			isa = PBXGroup;
 			children = (
 				6013F8D62C9D5506007615DB /* StormViewerApp.swift */,
-				6013F8D82C9D5506007615DB /* ContentView.swift */,
+				6013F8D82C9D5506007615DB /* TaskView.swift */,
 				6013F8DA2C9D5507007615DB /* Assets.xcassets */,
 				6013F8DC2C9D5507007615DB /* Preview Content */,
 			);
 			path = StormViewer;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		6013F8DC2C9D5507007615DB /* Preview Content */ = {
 			isa = PBXGroup;
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6013F8D92C9D5506007615DB /* ContentView.swift in Sources */,
+				6013F8D92C9D5506007615DB /* TaskView.swift in Sources */,
 				6013F8D72C9D5506007615DB /* StormViewerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
