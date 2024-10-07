@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct StormViewerApp: App {
+    
     var body: some Scene {
         WindowGroup {
             TaskView()

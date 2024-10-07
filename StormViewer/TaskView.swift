@@ -39,7 +39,7 @@ struct TaskView: View {
                 Button(action: {}) {
                     Image(systemName: "forward.fill")
                 }
-            }
+            }.accessibilityLabel("Next speaker")
         }.padding()
         
     }
