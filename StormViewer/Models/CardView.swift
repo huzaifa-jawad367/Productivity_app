@@ -13,13 +13,16 @@ struct CardView: View {
         VStack(alignment: .leading) {
             Text(task.title)
                 .font(.headline)
+                .accessibilityAddTraits(/*@START_MENU_TOKEN@*/.isHeader/*@END_MENU_TOKEN@*/)
 //            Text(task.theme.rawValue)
             Spacer()
             HStack {
                 Label("\(task.attendees.count)", systemImage: "person.3")
+                    .accessibilityLabel("\(task.attendees.count) people")
                 Spacer()
                 Label("\(task.lengthInMinutes)", systemImage: "clock")
-                    .padding(.trailing, 20)
+                    .accessibilityLabel("\(task.lengthInMinutes) minute task")
+                    .labelStyle(.trailingIcon)
 
             }.font(.caption)
         }

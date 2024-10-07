@@ -17,6 +17,7 @@
 		60B6B8202CAD92B50086930F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B6B81F2CAD92B50086930F /* Theme.swift */; };
 		60B6B8222CAD9B860086930F /* DailyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B6B8212CAD9B860086930F /* DailyTask.swift */; };
 		60B6B8242CAD9CB70086930F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B6B8232CAD9CB70086930F /* CardView.swift */; };
+		60C2C5132CB4573800C0BA3F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2C5122CB4573800C0BA3F /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		60B6B81F2CAD92B50086930F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		60B6B8212CAD9B860086930F /* DailyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTask.swift; sourceTree = "<group>"; };
 		60B6B8232CAD9CB70086930F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		60C2C5122CB4573800C0BA3F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				60B6B81F2CAD92B50086930F /* Theme.swift */,
 				60B6B8212CAD9B860086930F /* DailyTask.swift */,
 				60B6B8232CAD9CB70086930F /* CardView.swift */,
+				60C2C5122CB4573800C0BA3F /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B6B8222CAD9B860086930F /* DailyTask.swift in Sources */,
+				60C2C5132CB4573800C0BA3F /* TrailingIconLabelStyle.swift in Sources */,
 				60B6B8202CAD92B50086930F /* Theme.swift in Sources */,
 				6013F8D92C9D5506007615DB /* TaskView.swift in Sources */,
 				6013F8D72C9D5506007615DB /* StormViewerApp.swift in Sources */,
