@@ -12,7 +12,7 @@ struct StormViewerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TaskView()
+            TasksView(Tasks: DailyTask.sampleData)
         }
     }
 }
