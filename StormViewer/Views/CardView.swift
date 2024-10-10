@@ -21,7 +21,7 @@ struct CardView: View {
                     .accessibilityLabel("\(task.attendees.count) people")
                 Spacer()
                 Label("\(task.lengthInMinutes)", systemImage: "clock")
-                    .accessibilityLabel("\(task.lengthInMinutes) minute task")
+                    .accessibilityLabel("\(task.lengthInMinutes) minute meeting")
                     .labelStyle(.trailingIcon)
 
             }.font(.caption)

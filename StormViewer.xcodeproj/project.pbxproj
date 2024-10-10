@@ -19,6 +19,7 @@
 		60B6B8242CAD9CB70086930F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B6B8232CAD9CB70086930F /* CardView.swift */; };
 		60C2C5132CB4573800C0BA3F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2C5122CB4573800C0BA3F /* TrailingIconLabelStyle.swift */; };
 		60C2C5152CB5623B00C0BA3F /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2C5142CB5623B00C0BA3F /* TasksView.swift */; };
+		60C2C51D2CB8418F00C0BA3F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2C51C2CB8418F00C0BA3F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		60B6B8232CAD9CB70086930F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		60C2C5122CB4573800C0BA3F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		60C2C5142CB5623B00C0BA3F /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		60C2C51C2CB8418F00C0BA3F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +106,9 @@
 		6013F8D52C9D5506007615DB /* StormViewer */ = {
 			isa = PBXGroup;
 			children = (
+				60C2C51B2CB840FF00C0BA3F /* Views */,
 				60B6B81E2CAD92970086930F /* Models */,
 				6013F8D62C9D5506007615DB /* StormViewerApp.swift */,
-				6013F8D82C9D5506007615DB /* TaskView.swift */,
 				6013F8DA2C9D5507007615DB /* Assets.xcassets */,
 				6013F8DC2C9D5507007615DB /* Preview Content */,
 			);
@@ -143,11 +145,20 @@
 			children = (
 				60B6B81F2CAD92B50086930F /* Theme.swift */,
 				60B6B8212CAD9B860086930F /* DailyTask.swift */,
-				60B6B8232CAD9CB70086930F /* CardView.swift */,
-				60C2C5142CB5623B00C0BA3F /* TasksView.swift */,
 				60C2C5122CB4573800C0BA3F /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		60C2C51B2CB840FF00C0BA3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60B6B8232CAD9CB70086930F /* CardView.swift */,
+				60C2C5142CB5623B00C0BA3F /* TasksView.swift */,
+				6013F8D82C9D5506007615DB /* TaskView.swift */,
+				60C2C51C2CB8418F00C0BA3F /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B6B8222CAD9B860086930F /* DailyTask.swift in Sources */,
+				60C2C51D2CB8418F00C0BA3F /* DetailView.swift in Sources */,
 				60C2C5132CB4573800C0BA3F /* TrailingIconLabelStyle.swift in Sources */,
 				60B6B8202CAD92B50086930F /* Theme.swift in Sources */,
 				60C2C5152CB5623B00C0BA3F /* TasksView.swift in Sources */,
